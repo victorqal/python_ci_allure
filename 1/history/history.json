@@ -1,0 +1,43 @@
+{
+  "66652913f36bc6fd88d92a6bd7aca0c6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c5340af7cf1a5e5b",
+      "reportUrl" : "https://victorqal.github.io/python_ci_allure/1//#testresult/c5340af7cf1a5e5b",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 3s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"login_button_container\"]/div/form/h3')).is visible\n\nReason: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"login_button_container\"]/div/form/h3\"}\n  (Session info: chrome=124.0.6367.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nScreenshot: file:///home/runner/.selene/screenshots/1714581480152/1714581480152.png\nPageSource: file:///home/runner/.selene/screenshots/1714581480152/1714581480152.html",
+      "time" : {
+        "start" : 1714581481359,
+        "stop" : 1714581485124,
+        "duration" : 3765
+      }
+    } ]
+  },
+  "6b0c708eccbf4233997b398240b1caad" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "58e937d33e2991c7",
+      "reportUrl" : "https://victorqal.github.io/python_ci_allure/1//#testresult/58e937d33e2991c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1714581480176,
+        "stop" : 1714581481293,
+        "duration" : 1117
+      }
+    } ]
+  }
+}

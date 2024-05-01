@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://victorqal.github.io/python_ci_allure",
+  "buildOrder" : 1,
+  "buildName" : "GitHub Actions Run #8912122889",
+  "buildUrl" : "https://github.com/victorqal/python_ci_allure/actions/runs/8912122889",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://victorqal.github.io/python_ci_allure/1/"
+} ]
